@@ -385,7 +385,7 @@ a:hover{ text-decoration: underline; text-underline-offset: 3px; }
   padding: 18px 16px 0;
 }
 
-.avatar .pic{
+.avatar #pic{
    border-radius: 999px;
   width: 220px;
   height: 330px;
