@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="CV en ligne de Mohammed Atir — Développeur Web." />
+    <title>Mohammed Atir — Développeur Web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+    <header class="topbar" id="haut">
+      <div class="container topbar__inner">
+        <a class="brand" href="#haut" aria-label="Retour en haut">
+          <span class="brand__mark" aria-hidden="true">MA</span>
+          <span class="brand__text">
+            <span class="brand__name">Mohammed Atir</span>
+            <span class="brand__role">Développeur Web</span>
+          </span>
+        </a>
+
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav">
+          <span class="nav-toggle__bars" aria-hidden="true"></span>
+          <span class="sr-only">Ouvrir le menu</span>
+        </button>
+
+        <nav class="nav" id="nav" aria-label="Navigation principale">
+          <a class="nav__link" href="#apropos">À propos</a>
+          <a class="nav__link" href="#competences">Compétences</a>
+          <a class="nav__link" href="#experience">Expérience</a>
+          <a class="nav__link" href="#formation">Formation</a>
+          <a class="nav__link" href="#certifications">Certifications</a>
+          <a class="nav__link" href="#langues">Langues</a>
+          <a class="nav__link" href="#contact">Contact</a>
+        </nav>
+      </div>
+      <div class="progress" aria-hidden="true"><div class="progress__bar" id="progressBar"></div></div>
+    </header>
+
+    <main id="contenu">
+      <section class="hero">
+        <div class="hero__bg" aria-hidden="true">
+          <div class="blob blob--a"></div>
+          <div class="blob blob--b"></div>
+          <div class="grid"></div>
+        </div>
+
+        <div class="container hero__inner">
+          <div class="reveal">
+            <p class="pill">Disponible • Maroc (Témara)</p>
+            <h1 class="hero__title">
+              Mohammed Atir
+              <span class="hero__subtitle">Développeur Web</span>
+            </h1>
+            <p class="hero__lead">
+              Diplômé en développement web, je suis un développeur passionné par la création de sites web
+              innovants et conviviaux. Très motivé pour exceller, j’adopte les nouvelles technologies et
+              poursuis un apprentissage continu.
+            </p>
+
+            <div class="hero__cta">
+              <a class="btn btn--primary" href="#contact">Me contacter</a>
+              <a class="btn btn--ghost" href="#experience">Voir l’expérience</a>
+            </div>
+
+            <ul class="quick" aria-label="Coordonnées principales">
+              <li class="quick__item">
+                <span class="quick__label">E-mail</span>
+                <a class="quick__value" href="mailto:smo.atir@gmail.com">smo.atir@gmail.com</a>
+              </li>
+              <li class="quick__item">
+                <span class="quick__label">Téléphone</span>
+                <a class="quick__value" href="tel:+212648897001">+212 648 897 001</a>
+              </li>
+              <li class="quick__item">
+                <span class="quick__label">Ville</span>
+                <span class="quick__value">Témara — Maroc</span>
+              </li>
+            </ul>
+          </div>
+
+          <aside class="card card--profile reveal" aria-label="Liens professionnels">
+            <div class="avatar" aria-hidden="true">
+              <div class="avatar__ring"></div>
+              <div class="avatar__inner">MA</div>
+            </div>
+            <div class="card__body">
+              <h2 class="card__title">Liens</h2>
+              <p class="card__muted">Retrouvez mon travail et mon profil.</p>
+              <div class="links">
+                <a class="link" href="https://github.com/MedAtir" target="_blank" rel="noreferrer">
+                  <span class="link__k">GitHub</span>
+                  <span class="link__v">github.com/MedAtir</span>
+                </a>
+                <a class="link" href="https://linkedin.com/in/mohammedatir" target="_blank" rel="noreferrer">
+                  <span class="link__k">LinkedIn</span>
+                  <span class="link__v">linkedin.com/in/mohammedatir</span>
+                </a>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section" id="apropos">
+        <div class="container">
+          <div class="section__head reveal">
+            <h2>À propos</h2>
+            <p>Une présentation rapide, orientée recrutement.</p>
+          </div>
+
+          <div class="grid-2">
+            <div class="panel reveal">
+              <h3>Profil</h3>
+              <p>
+                Diplômé en développement web, je suis un développeur passionné par la création de sites web
+                innovants et conviviaux. Très motivé pour exceller, j’adopte les nouvelles technologies et
+                poursuis un apprentissage continu.
+              </p>
+            </div>
+
+            <div class="panel reveal">
+              <h3>Qualités</h3>
+              <ul class="chips" aria-label="Compétences comportementales">
+                <li class="chip">Observation</li>
+                <li class="chip">Prise de décision</li>
+                <li class="chip">Communication</li>
+                <li class="chip">Multitâche</li>
+                <li class="chip">Gestion du temps</li>
+                <li class="chip">Travailleur acharné</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--alt" id="competences">
+        <div class="container">
+          <div class="section__head reveal">
+            <h2>Compétences</h2>
+            <p>Principales technologies + notions complémentaires.</p>
+          </div>
+
+          <div class="grid-2">
+            <div class="panel reveal">
+              <h3>Compétences techniques</h3>
+              <div class="skills" id="skills">
+                <div class="skill" data-level="90">
+                  <div class="skill__top"><span>HTML / CSS / JavaScript</span><span class="skill__pct">90%</span></div>
+                  <div class="skill__bar"><div class="skill__fill"></div></div>
+                </div>
+                <div class="skill" data-level="80">
+                  <div class="skill__top"><span>React.js</span><span class="skill__pct">80%</span></div>
+                  <div class="skill__bar"><div class="skill__fill"></div></div>
+                </div>
+                <div class="skill" data-level="78">
+                  <div class="skill__top"><span>Node.js</span><span class="skill__pct">78%</span></div>
+                  <div class="skill__bar"><div class="skill__fill"></div></div>
+                </div>
+                <div class="skill" data-level="72">
+                  <div class="skill__top"><span>Express.js</span><span class="skill__pct">72%</span></div>
+                  <div class="skill__bar"><div class="skill__fill"></div></div>
+                </div>
+                <div class="skill" data-level="70">
+                  <div class="skill__top"><span>MongoDB</span><span class="skill__pct">70%</span></div>
+                  <div class="skill__bar"><div class="skill__fill"></div></div>
+                </div>
+                <div class="skill" data-level="68">
+                  <div class="skill__top"><span>Oracle DBMS / SQL / MySQL</span><span class="skill__pct">68%</span></div>
+                  <div class="skill__bar"><div class="skill__fill"></div></div>
+                </div>
+                <div class="skill" data-level="75">
+                  <div class="skill__top"><span>Git / GitHub</span><span class="skill__pct">75%</span></div>
+                  <div class="skill__bar"><div class="skill__fill"></div></div>
+                </div>
+                <div class="skill" data-level="70">
+                  <div class="skill__top"><span>WordPress</span><span class="skill__pct">70%</span></div>
+                  <div class="skill__bar"><div class="skill__fill"></div></div>
+                </div>
+                <div class="skill" data-level="55">
+                  <div class="skill__top"><span>Figma</span><span class="skill__pct">55%</span></div>
+                  <div class="skill__bar"><div class="skill__fill"></div></div>
+                </div>
+                <div class="skill" data-level="45">
+                  <div class="skill__top"><span>Wix</span><span class="skill__pct">45%</span></div>
+                  <div class="skill__bar"><div class="skill__fill"></div></div>
+                </div>
+              </div>
+              <p class="muted small">Les pourcentages servent uniquement à l’animation et à la lisibilité.</p>
+            </div>
+
+            <div class="panel reveal">
+              <h3>Notions de base</h3>
+              <ul class="list">
+                <li>Design UX / UI</li>
+                <li>Django</li>
+                <li>PHP Laravel</li>
+                <li>Apprentissage automatique</li>
+                <li>Python</li>
+                <li>Montage PC</li>
+                <li>PC gamer</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="experience">
+        <div class="container">
+          <div class="section__head reveal">
+            <h2>Expérience professionnelle</h2>
+            <p>Stages et bénévolat (détails issus du CV).</p>
+          </div>
+
+          <ol class="timeline" aria-label="Expérience professionnelle">
+            <li class="timeline__item reveal">
+              <div class="timeline__meta">
+                <span class="timeline__role">CAF — Rabat • Numérique • Bénévole</span>
+                <span class="timeline__date">Déc. 2025 → Jan. 2026</span>
+              </div>
+              <ul class="timeline__bullets">
+                <li>Production de contenus visuels (photos et vidéos) pour les plateformes sociales de la CAF en ligne.</li>
+              </ul>
+            </li>
+
+            <li class="timeline__item reveal">
+              <div class="timeline__meta">
+                <span class="timeline__role">FIFA WWC U17 — Rabat/Salé • Technologie • Bénévole</span>
+                <span class="timeline__date">Oct. 2025 → Nov. 2025</span>
+              </div>
+              <ul class="timeline__bullets">
+                <li>Diffusion, câbles Wi‑Fi et Ethernet dans tous les stades.</li>
+                <li>Gestion du matériel : imprimantes, photographes, téléviseurs et ordinateurs.</li>
+              </ul>
+            </li>
+
+            <li class="timeline__item reveal">
+              <div class="timeline__meta">
+                <span class="timeline__role">Zenclick — Témara • Développement web • Stagiaire</span>
+                <span class="timeline__date">Fév. 2025 → Août 2025</span>
+              </div>
+              <ul class="timeline__bullets">
+                <li>Création de sites web avec WordPress.</li>
+                <li>Maintenance de sites web existants.</li>
+              </ul>
+            </li>
+
+            <li class="timeline__item reveal">
+              <div class="timeline__meta">
+                <span class="timeline__role">YOURAWS — Tanger • Développement web / Infonuagique (Cloud) • Stagiaire</span>
+                <span class="timeline__date">Oct. 2024 → Déc. 2024</span>
+              </div>
+              <ul class="timeline__bullets">
+                <li>Création de sites web avec WordPress.</li>
+                <li>Maintenance de sites web existants.</li>
+                <li>Utilisation d’AWS pour déployer des sites web (mise en place de l’environnement).</li>
+              </ul>
+            </li>
+
+            <li class="timeline__item reveal">
+              <div class="timeline__meta">
+                <span class="timeline__role">Media Experts — Casablanca • Développement web • Stagiaire</span>
+                <span class="timeline__date">Mars 2024 → Mai 2024</span>
+              </div>
+              <ul class="timeline__bullets">
+                <li>Approfondissement de WordPress.</li>
+                <li>Création de nouveaux sites web.</li>
+                <li>Maintenance de sites web existants.</li>
+              </ul>
+            </li>
+
+            <li class="timeline__item reveal">
+              <div class="timeline__meta">
+                <span class="timeline__role">MAScIR — Rabat • Développement web • Stage</span>
+                <span class="timeline__date">Oct. 2022 → Déc. 2022</span>
+              </div>
+              <ul class="timeline__bullets">
+                <li>Compréhension des besoins d’étudiants en doctorat.</li>
+                <li>Création de sites dans un court délai.</li>
+                <li>Présentation du site final à l’équipe.</li>
+              </ul>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section section--alt" id="formation">
+        <div class="container">
+          <div class="section__head reveal">
+            <h2>Formation</h2>
+            <p>Parcours éducatif.</p>
+          </div>
+
+          <div class="cards">
+            <article class="edu reveal">
+              <h3>Orange Digital Center / GOMYCODE — Rabat</h3>
+              <p class="edu__meta">Formation intensive Full‑Stack JavaScript • Jan. 2023 → Mai 2023</p>
+            </article>
+
+            <article class="edu reveal">
+              <h3>FST Settat — Université Hassan 1 — Settat</h3>
+              <p class="edu__meta">Licence universitaire professionnelle — Ingénierie de conception et de développement d’application • Obtenu en 2023</p>
+            </article>
+
+            <article class="edu reveal">
+              <h3>ISTA NTIC — Rabat</h3>
+              <p class="edu__meta">Technicien en Développement Informatique • Obtenu en 2022</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="certifications">
+        <div class="container">
+          <div class="section__head reveal">
+            <h2>Certifications</h2>
+            <p>Certificats et badges.</p>
+          </div>
+
+          <ul class="certs">
+            <li class="cert reveal">
+              <span class="cert__title">Microsoft Excel (Office 2016)</span>
+              <span class="cert__meta">12/05/2022 • CERTIPORT / Microsoft</span>
+            </li>
+            <li class="cert reveal">
+              <span class="cert__title">Introduction à la programmation avec HTML et CSS</span>
+              <span class="cert__meta">04/03/2021 • CERTIPORT / Microsoft</span>
+            </li>
+            <li class="cert reveal">
+              <span class="cert__title">Fondamentaux IoT : Big Data &amp; Analytics</span>
+              <span class="cert__meta">14 sept. 2020 • Cisco</span>
+            </li>
+            <li class="cert reveal">
+              <span class="cert__title">IT Essentials : matériel et logiciels PC</span>
+              <span class="cert__meta">3 mars 2020 • Cisco</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section section--alt" id="langues">
+        <div class="container">
+          <div class="section__head reveal">
+            <h2>Langues</h2>
+            <p>Niveau indiqué sur le CV.</p>
+          </div>
+
+          <div class="panel reveal">
+            <ul class="chips" aria-label="Langues">
+              <li class="chip">Arabe — langue maternelle</li>
+              <li class="chip">Anglais — avancé</li>
+              <li class="chip">Français — conversationnel</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--alt" id="contact">
+        <div class="container">
+          <div class="section__head reveal">
+            <h2>Contact</h2>
+            <p>Un recruteur peut te joindre en un clic.</p>
+          </div>
+
+          <div class="grid-2">
+            <div class="panel reveal">
+              <h3>Coordonnées</h3>
+              <ul class="contact">
+                <li>
+                  <span class="contact__k">E-mail</span>
+                  <a class="contact__v" href="mailto:smo.atir@gmail.com">smo.atir@gmail.com</a>
+                </li>
+                <li>
+                  <span class="contact__k">Téléphone</span>
+                  <a class="contact__v" href="tel:+212648897001">+212 648 897 001</a>
+                </li>
+                <li>
+                  <span class="contact__k">Localisation</span>
+                  <span class="contact__v">Témara — Maroc</span>
+                </li>
+                <li>
+                  <span class="contact__k">GitHub</span>
+                  <a class="contact__v" href="https://github.com/MedAtir" target="_blank" rel="noreferrer">github.com/MedAtir</a>
+                </li>
+                <li>
+                  <span class="contact__k">LinkedIn</span>
+                  <a class="contact__v" href="https://linkedin.com/in/mohammedatir" target="_blank" rel="noreferrer">linkedin.com/in/mohammedatir</a>
+                </li>
+              </ul>
+            </div>
+
+            <form class="panel reveal form" id="contactForm">
+              <h3>Message rapide</h3>
+              <p class="muted small">
+                Ce formulaire ouvre votre application e‑mail avec un message pré‑rempli (aucun serveur nécessaire).
+              </p>
+              <label class="field">
+                <span>Votre nom</span>
+                <input name="nom" autocomplete="name" required />
+              </label>
+              <label class="field">
+                <span>Votre e‑mail</span>
+                <input name="email" type="email" autocomplete="email" required />
+              </label>
+              <label class="field">
+                <span>Message</span>
+                <textarea name="message" rows="5" required></textarea>
+              </label>
+              <div class="form__actions">
+                <button class="btn btn--primary" type="submit">Envoyer</button>
+                <button class="btn btn--ghost" type="reset">Effacer</button>
+              </div>
+              <p class="form__hint" id="formHint" aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <p>© <span id="year"></span> Mohammed Atir • Développeur Web</p>
+        <a class="to-top" href="#haut">Retour en haut</a>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
